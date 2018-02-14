@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style:none;
+}
+
+button {
+  background-color:#aaf;
+  width:10em;
+  height:2em;
+  border: 0;
+}
+
+.content {
+  width:75%;
+}
+
+.innercontent {
+  margin:2em;
+}
+
+#root {
+  display: flex;
+
+  height: 100vh;
+}
+
+.sidebar {
+  width:25%;
+  background-color:#ddd;
+  padding:2em;
+  /*height:100vh;*/
+}
+
+.list {
+  padding:1em;
+}
